@@ -16,6 +16,16 @@ public class Interactables : MonoBehaviour
     [SerializeField] public bool Gravity = false;
     [SerializeField] public float GravitySpeed = 1;
 
+    private void Update()
+    {
+        
+
+
+
+
+
+
+    }
 
 
 

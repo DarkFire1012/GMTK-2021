@@ -97,15 +97,16 @@ public class Player : MonoBehaviour
                 jump();
             }
         }
-
+        //disabled
+        /*
         if (Input.GetButton("Fire1"))
         {
             attack();
         }  
-        
+        */
         shouldJump = false;
     }
-
+    /*
     private void OnDrawGizmosSelected() {
         if (facingRight) {
             Gizmos.DrawWireSphere(new Vector2(transform.position.x + attackRange / 2, transform.position.y), attackRange);
@@ -113,7 +114,7 @@ public class Player : MonoBehaviour
             Gizmos.DrawWireSphere(new Vector2(transform.position.x - attackRange / 2, transform.position.y), attackRange);
         }
     }
-
+    */
     void jump()
     {
         if (Input.GetAxisRaw("Horizontal") > 0)

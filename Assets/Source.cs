@@ -16,6 +16,14 @@ public class Source : MonoBehaviour
     [SerializeField] private bool Gravity = false;
     [SerializeField] private float GravitySpeed = 1;
 
+    [SerializeField] private Material Mat;
+
+    private void Start()
+    {
+
+        //Mat = Material.Create("Test");
+
+    }
 
 
 
