@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SaveManager : MonoBehaviour
 {
+    
     public static bool hasSave()
     {
         return false;
