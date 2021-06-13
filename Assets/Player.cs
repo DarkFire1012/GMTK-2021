@@ -101,7 +101,7 @@ public class Player : MonoBehaviour
         if (Input.GetButton("Fire1"))
         {
             attack();
-        }
+        }  
         
         shouldJump = false;
     }
